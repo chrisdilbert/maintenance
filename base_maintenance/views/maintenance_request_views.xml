@@ -9,12 +9,7 @@
         <field name="priority" eval="999" />
         <field name="arch" type="xml">
             <xpath expr="//div[hasclass('oe_title')]" position="before">
-                <div
-                    class="oe_button_box"
-                    name="button_box"
-                    style="margin-right: 10px;"
-                >
-                    <!--Empty, to be inherited by other modules.-->
+                    <div class="oe_button_box" name="button_box">
                 </div>
             </xpath>
             <field name="description" position="replace">
